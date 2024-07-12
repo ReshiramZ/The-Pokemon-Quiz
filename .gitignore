@@ -1,0 +1,30 @@
+# Ignore arquivos de build
+bin/
+obj/
+
+# Ignore arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Ignore arquivos do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore arquivos de dependências
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore arquivos específicos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos JSON específicos se forem gerados automaticamente
+*.json
+
